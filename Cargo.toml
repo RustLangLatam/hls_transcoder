@@ -1,6 +1,13 @@
 [package]
 name = "hls_transcoder"
 version = "0.1.0"
+authors = ["Rust Latam <rust.lang.latam@gmail.com>"]
+description = "High-performance Rust library for transcoding media to HLS using GStreamer."
+license = "MIT"
+repository = "https://github.com/RustLangLatam/hls_transcoder"
+documentation = "https://docs.rs/hls_transcoder"
+keywords = ["hls", "transcoding", "gstreamer", "video"]
+categories = ["video", "media", "streaming"]
 edition = "2021"
 
 [dependencies]
