@@ -1,0 +1,10 @@
+[package]
+name = "hls_transcoder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+gst = { package = "gstreamer", version = "0.23.2", features = ["v1_18"] }
+gst-hlssink3 = {package = "gst-plugin-hlssink3",  version = "^0.13.1"}
+gst-app = { package = "gstreamer-app", version = "0.23.2", features = ["v1_18"] }
